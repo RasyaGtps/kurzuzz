@@ -9,6 +9,7 @@
   body {
     margin: 0;
     padding: 1000;
+    color: black;
   }
   #header {
     height: max-content;
@@ -91,6 +92,7 @@
     justify-content: center;
     align-content: center;
     text-align: center;
+    color: black;
   }
   .home-sec {
     font-family: "Montserrat", sans-serif;
@@ -99,6 +101,7 @@
     min-height: 60rem;
     height: auto;
     margin: 0 auto 10rem auto;
+    color: black;
   
     max-width: 95rem;
     color: #333;
@@ -111,26 +114,31 @@
   }
   .eye-grabber {
     padding: 0 0rem;
+    color: black;
+    background-color: white;
   }
   @media (max-width: 800px) {
     .eye-grabber {
       max-width: max-content;
       padding-bottom: 8rem;
+      background-color: black;
     }
   }
   .eye-grabber h1 {
     font-size: 5rem;
     line-height: 1.5;
     font-weight: 600;
+    color: black;
   }
   .eye-grabber h2 {
     font-size: 2.3rem;
     font-weight: 500;
-    color: #666;
+    color: black;
   }
   .eye-grabber-img {
     flex: 1;
     margin-left: 19rem;
+    margin-bottom: 11rem; 
   }
   
   @media (max-width: 800px) {
@@ -151,7 +159,7 @@
   }
 
   #varieties {
-    background-color: white;
+    background-color: black;
   }
   .tile {
     background-color: #fafafa;
