@@ -10,7 +10,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id_pengguna, username, password, role, login_time FROM pengguna"; // Gantilah 'nama_tabel' dengan nama tabel yang sesuai
+$sql = "SELECT id_pengguna, username, password, role, login_time FROM pengguna";
 $result = $conn->query($sql);
 
 $data = array();

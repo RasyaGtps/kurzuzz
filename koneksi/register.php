@@ -15,8 +15,10 @@
         $password = $_POST['password'];
         $confirmPassword = $_POST['confirm_password'];
         if ($password !== $confirmPassword) {
-            $status = "Passwords do not match. Please try again.";
+            header("Location: ../load/failed.php");
+            exit(); 
         } else {
+            //bikin id acak
             function generateRandomId($length = 3) {
                 global $conn;
     
@@ -38,7 +40,7 @@
                     $attempts++;
                 } while ($attempts < $maxAttempts);
     
-                $status = "Failed to generate a new ID after $maxAttempts attempts.";
+                $status = "Gagal membuat id baru setelah $maxAttempts";
                 return null;
             }
     
@@ -48,14 +50,21 @@
                 $password = $_POST['password'];
     
                 $role = 'user';
-    
+                $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
+
+                if (!$email) {
+                    $status = "Harap masukkan email dengan benar";
+                }
+                
                 $sql = "INSERT INTO pengguna (id_pengguna, nama, username, email, alamat, password, role) VALUES ('$id_pengguna', '$nama', '$username', '$email', '$alamat', '$password', '$role')";
     
                 if (mysqli_query($conn, $sql)) {
                     header("Location: ../load/success.php");
                 } else {
                     $status = "Error: " . $sql . "<br>" . mysqli_error($conn);
+                    echo $status;
                 }
+                
             }
         }
     }

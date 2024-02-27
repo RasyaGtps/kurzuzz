@@ -1,15 +1,12 @@
-:root {
-    font-size: 10px;
-    font-family: "Open Sans", sans-serif;
+
+  body {
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
-  body {
-    margin: 0;
-    padding: 1000;
-    color: black;
+    background: #333;
+    font-size: 11px;
+    background: #0f0c29; 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
   }
   #header {
     height: max-content;
@@ -96,7 +93,6 @@
   }
   .home-sec {
     font-family: "Montserrat", sans-serif;
-    background-color: #ffffff;
     text-align: start;
     min-height: 60rem;
     height: auto;
@@ -115,7 +111,6 @@
   .eye-grabber {
     padding: 0 0rem;
     color: black;
-    background-color: white;
   }
   @media (max-width: 800px) {
     .eye-grabber {
@@ -137,7 +132,7 @@
   }
   .eye-grabber-img {
     flex: 1;
-    margin-left: 19rem;
+    margin-left: 30rem;
     margin-bottom: 11rem; 
   }
   
@@ -162,7 +157,6 @@
     background-color: black;
   }
   .tile {
-    background-color: #fafafa;
     height: 25rem;
     width: 25rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -170,6 +164,7 @@
     transition: all 0.2s;
     padding: 1rem;
     margin: 1rem;
+    background-color: white;
   }
   @media (max-width: 680px) {
     .tile {

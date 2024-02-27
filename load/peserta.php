@@ -98,13 +98,13 @@
       <div class="circle-2"></div>
     </div>
     <div class="text">
-  <h1>Password salah!&nbsp;</h1>
+  <h1>Berhasil login!&nbsp;</h1>
 </div>
 
 
     <script>
       setTimeout(function () {
-        window.location.href = "../index.php";
+        window.location.href = "../peserta/index.php";
       }, 2300);
     </script>
   </body>

@@ -1,8 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Kursus</title>
+    <title>Kursus Programming</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="../css/styles.css" />
@@ -17,7 +16,7 @@
           <a href="about.php" class="nav-link">About</a>
           <a href="benefits.php" class="nav-link">Benefits</a>
           <a href="contact.php" class="nav-link">Contact</a>
-          <a href="join.php" class="nav-link">Kursus</a>
+          <a href="kursus.php" class="nav-link">Kursus</a>
         </nav>
       </div>
     </header>

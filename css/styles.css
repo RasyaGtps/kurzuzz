@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 :root {
   font-size: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -11,14 +11,13 @@ body {
   font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
   font-size: 11px;
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* Combined linear gradient background */
 }
 
 #header {
   height: max-content;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   width: 100%;
   background-color: white;
   padding: 1rem 0;
@@ -209,7 +208,7 @@ nav {
   }
 }
 .tile img {
-  width: 100%;
+  width: 150%;
   max-width: 29rem;
   border-radius: 0.5rem;
 }

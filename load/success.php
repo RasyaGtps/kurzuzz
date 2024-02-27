@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Welcome To Rasyaa</title>
+    <title>Kursus Programming</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="images/Iconslogo/rsz_logo_1-150x150.png" />
+    <link rel="icon" href="../img/Screenshot 2024-02-21 214242.png" type="image/png">
 
     <style>
       html,
@@ -41,7 +41,7 @@
       .circle-2 {
         left: 80%;
         animation: osc-r 1.5s ease-in infinite;
-        background: #2b2;
+        background: #29C5F6     ;
       }
       @keyframes osc-l {
         0% {

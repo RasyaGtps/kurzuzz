@@ -10,7 +10,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-date_default_timezone_set('Asia/Jakarta'); // Set zona waktu PHP
+date_default_timezone_set('Asia/Jakarta');
 
 if (isset($_POST['submit'])) {
     $username = $_POST['username'];
@@ -33,13 +33,11 @@ if (isset($_POST['submit'])) {
     $conn->query($update_sql);
 
     if ($user['role'] == 'peserta') {
-      header("Location: ../koneksi/main.php");
+      header("Location: ../load/peserta.php");
     } elseif ($user['role'] == 'user') {
-      header("Location: ../load/main.php");
+      header("Location: ../load/user.php");
     } elseif ($user['role'] == 'admin') {
       header("Location: ../admin/admin.php");
-    } else {
-      header("Location: ../load/success.php");
     }
   } else {
     header("Location: ../load/wrong.php");

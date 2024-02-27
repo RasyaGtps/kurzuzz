@@ -98,7 +98,7 @@
       <div class="circle-2"></div>
     </div>
     <div class="text">
-  <h1>Password salah!&nbsp;</h1>
+  <h1>Password Tidak sama!&nbsp;</h1>
 </div>
 
 

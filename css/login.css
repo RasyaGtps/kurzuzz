@@ -75,3 +75,10 @@ h2{
 .box input[type = "submit"]:hover{
   background: #289bb8;
 }
+
+.form img {
+  width: 200px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  height: auto;
+}
